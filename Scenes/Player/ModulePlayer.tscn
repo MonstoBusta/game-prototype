@@ -157,21 +157,14 @@ scale = Vector2(0.5, 0.5)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 
-[node name="AkBankInit" type="AkBank" parent="."]
-bank = {
-"id": 1355168291,
-"name": "Init"
-}
-load_on = 1
-
-[node name="AkBankInGame" type="AkBank" parent="AkBankInit"]
+[node name="AkBankInGame" type="AkBank" parent="."]
 bank = {
 "id": 984691642,
 "name": "InGame"
 }
 load_on = 1
 
-[node name="AkEvent2D" type="AkEvent2D" parent="AkBankInit/AkBankInGame"]
+[node name="AkEvent2D" type="AkEvent2D" parent="AkBankInGame"]
 event = {
 "id": 261963144,
 "name": "PlayerGlockFire"
