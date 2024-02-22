@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BB950EE4-A134-40D1-8EA4-CF97342E1AD3}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="SFX" ID="{BB950EE4-A134-40D1-8EA4-CF97342E1AD3}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="WeaponFire" ID="{9708ED93-37F4-4304-8555-B609755083CA}" ShortID="935324128">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{13058E65-FCC5-48CD-A6DE-69432846997B}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3CFD8AEA-B518-4CF0-AA4A-971D0ED46CC2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3BE064F0-0233-4589-82A4-F95CDAFFB3DE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="PlayerGlockFire" ID="{F35339C6-C833-42A0-B30E-E8C1D0F39108}" ShortID="588821882">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D6B3BEA6-FE05-412C-BACC-A1C410FA651F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="127"/>
+													<Property Name="Min" Type="Real64" Value="-126"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3CFD8AEA-B518-4CF0-AA4A-971D0ED46CC2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3BE064F0-0233-4589-82A4-F95CDAFFB3DE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Glock1" ID="{6DC64594-D3B0-4024-BBA8-F66A636C1F85}" ShortID="214982588">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3CFD8AEA-B518-4CF0-AA4A-971D0ED46CC2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3BE064F0-0233-4589-82A4-F95CDAFFB3DE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PistolShot" ID="{FBC6AD17-EDDC-44C6-B0E9-393C4902DFD9}">
+											<Language>SFX</Language>
+											<AudioFile>PistolShot.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1012534904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PistolShot" ID="{FBC6AD17-EDDC-44C6-B0E9-393C4902DFD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{55DD9ED5-257E-46AC-AAA2-F9FB37BB617E}" ShortID="373781486">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+														<ObjectRef Name="New_Expander" ID="{8DF70AC9-7823-4C12-AB1F-752D5B4666C1}" WorkUnitID="{424A9D8A-4F73-4656-AB55-DA59972B398B}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Hurt" ID="{F81EA44E-26E8-4136-9FB3-5EE0372D3B4F}" ShortID="840822827">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3CFD8AEA-B518-4CF0-AA4A-971D0ED46CC2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3BE064F0-0233-4589-82A4-F95CDAFFB3DE}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

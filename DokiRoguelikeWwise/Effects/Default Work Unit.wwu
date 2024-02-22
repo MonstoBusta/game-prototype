@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{424A9D8A-4F73-4656-AB55-DA59972B398B}" SchemaVersion="119">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{424A9D8A-4F73-4656-AB55-DA59972B398B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Pitch_Shifter" ID="{E9D819BC-BB41-4DD1-8191-DD72497B69B3}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3"/>
+				<Effect Name="New_Pitch_Shifter_01" ID="{D117EF7A-D033-4826-9EFE-F9D13AC89B93}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3"/>
+				<Effect Name="New_Expander" ID="{8DF70AC9-7823-4C12-AB1F-752D5B4666C1}" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+					<PropertyList>
+						<Property Name="Threshold" Type="Real32" Value="-20.3"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

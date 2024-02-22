@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="DokiRoguelikeWwise" GUID="{27D9F4C8-2AF9-497E-A852-381FCB15A435}" Generator="2023.1.1.8417"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{248B8B53-2CD8-479D-BBFD-5DD10B5DB57B}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{24553AB9-7661-447E-89CF-379320B4CABC}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{1EF3951B-DFF4-49BB-757F-B6F155617868}</FileHash>
+</ProjectInfo>

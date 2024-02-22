@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B2BA63AE-78D0-45EC-BD86-7F109D7996D1}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="PlayerActions" ID="{B2BA63AE-78D0-45EC-BD86-7F109D7996D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Fire" ID="{EE2DD8FD-5814-477C-BE6B-388758FAC6F8}" ShortID="711973099">
+					<ChildrenList>
+						<Event Name="PlayerGlockFire" ID="{D3691A10-1AA2-4E1D-82A9-3955342D287A}">
+							<ChildrenList>
+								<Action Name="" ID="{0AB2A17C-2A5B-464E-8597-2CE161902264}" ShortID="92751921">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerGlockFire" ID="{F35339C6-C833-42A0-B30E-E8C1D0F39108}" WorkUnitID="{BB950EE4-A134-40D1-8EA4-CF97342E1AD3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AFF93043-11F2-4109-AAC5-1089BF893B56}" SchemaVersion="119">
+	<InteractiveMusic>
+		<WorkUnit Name="Stingers" ID="{AFF93043-11F2-4109-AAC5-1089BF893B56}" PersistMode="Standalone"/>
+	</InteractiveMusic>
+</WwiseDocument>

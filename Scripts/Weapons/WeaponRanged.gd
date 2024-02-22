@@ -23,6 +23,8 @@ const BULLET_BUFFER_PERIOD := 0.2
 var shootDirection: Vector2
 
 func _ready():
+		# Make sure you have registered a Listener
+	Wwise.register_game_obj(self, "PlayerPistol")
 	if WeaponData.weapon_ids.has(weaponId):
 		for weapon in WeaponData.weapons:
 			if weapon.weapon_id == weaponId:
@@ -64,6 +66,7 @@ func shootBullet():
 	animationPlayer.stop()
 	animationPlayer.play("Shoot")
 	AudioManager.play_sound(stream)
+	Wwise.post_event("PlayerGlockFire", self)
 	
 	for i in range(weaponData.bullets_per_trigger):
 		var bulletInstance = bulletScene.instantiate()
